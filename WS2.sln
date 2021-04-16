@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObjectStack", "WS2\ObjectStack.csproj", "{019D0CD5-3897-42BF-84CC-29F14CBD4E69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericLinkedList", "GenericLinkedList\GenericLinkedList.csproj", "{48145BB3-35DC-406A-BB27-B4F3034256D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericLinkedList", "GenericLinkedList\GenericLinkedList.csproj", "{48145BB3-35DC-406A-BB27-B4F3034256D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shape", "Shape\Shape.csproj", "{70EE3DB9-9E48-4A38-B288-B84654F625F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{48145BB3-35DC-406A-BB27-B4F3034256D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48145BB3-35DC-406A-BB27-B4F3034256D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48145BB3-35DC-406A-BB27-B4F3034256D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70EE3DB9-9E48-4A38-B288-B84654F625F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70EE3DB9-9E48-4A38-B288-B84654F625F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70EE3DB9-9E48-4A38-B288-B84654F625F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70EE3DB9-9E48-4A38-B288-B84654F625F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
