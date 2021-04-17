@@ -30,7 +30,7 @@ namespace Shape
         public abstract double Perimeter();
         public override /*new*/ string ToString()
         {
-            return "A Shape with color of {Color} and {IsFilled ? '' : 'not'} filled";
+            return $"A Shape with color of {Color} and {(IsFilled ? "" : "not ")}filled";
         }
     }
 
@@ -62,7 +62,7 @@ namespace Shape
 
         public override /*new*/ string ToString()
         {
-            return "A Circle with radius={Radius}, which is a derived class of " + base.ToString();
+            return $"A Circle with radius={Radius}, which is a derived class of " + base.ToString();
         }
     }
 
@@ -103,7 +103,7 @@ namespace Shape
 
         public override /*new*/ string ToString()
         {
-            return "A Rectangle with width={Width} and length={Length}, which is a Derived class of " + base.ToString();
+            return $"A Rectangle with width={Width} and length={Length}, which is a Derived class of " + base.ToString();
         }
     }
 
